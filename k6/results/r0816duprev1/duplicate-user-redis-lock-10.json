@@ -1,0 +1,225 @@
+{
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+                "result is recognized": {
+                    "name": "result is recognized",
+                    "path": "::result is recognized",
+                    "id": "4e0943df8f0b3df8b8614fde34f6389e",
+                    "passes": 29707,
+                    "fails": 293
+                },
+                "status matches result": {
+                    "id": "9162adfc0298f93da2240d7713da7704",
+                    "passes": 30000,
+                    "fails": 0,
+                    "name": "status matches result",
+                    "path": "::status matches result"
+                }
+            }
+    },
+    "metrics": {
+        "coupon_sold_out": {
+            "count": 6,
+            "rate": 0.06399657135382465,
+            "thresholds": {
+                "count==0": true
+            }
+        },
+        "data_received": {
+            "count": 6579862,
+            "rate": 70181.43466355323
+        },
+        "coupon_duplicate_user_duration": {
+            "avg": 161.87781775421254,
+            "med": 155.09910000000002,
+            "p(90)": 198.33409999999998,
+            "p(95)": 216.10083999999998,
+            "p(99)": 246.72303200000005,
+            "max": 286.1327
+        },
+        "coupon_setup_error": {
+            "count": 0,
+            "rate": 0,
+            "thresholds": {
+                "count==0": false
+            }
+        },
+        "coupon_internal_error": {
+            "count": 287,
+            "rate": 3.061169329757946,
+            "thresholds": {
+                "count==0": true
+            }
+        },
+        "http_req_waiting": {
+            "avg": 155.76597152666605,
+            "med": 148.89170000000001,
+            "p(90)": 189.79651000000004,
+            "p(95)": 210.97005,
+            "p(99)": 250.67616699999982,
+            "max": 285.6098
+        },
+        "coupon_sold_out_duration": {
+            "p(99)": 163.393645,
+            "max": 163.5323,
+            "avg": 150.26263333333333,
+            "med": 149.04410000000001,
+            "p(90)": 162.14575,
+            "p(95)": 162.839025
+        },
+        "http_req_duration{expected_response:true}": {
+            "med": 148.8819,
+            "p(90)": 187.64954,
+            "p(95)": 206.34553999999994,
+            "p(99)": 241.02771200000007,
+            "max": 286.1327,
+            "avg": 155.00785247871258
+        },
+        "http_req_sending": {
+            "max": 1.9127,
+            "avg": 0.01564940999999998,
+            "med": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0.5304
+        },
+        "vus_max": {
+            "value": 50,
+            "min": 50,
+            "max": 50
+        },
+        "iteration_duration": {
+            "avg": 156.12084925666633,
+            "med": 149.2747,
+            "p(90)": 190.15636000000006,
+            "p(95)": 211.315745,
+            "p(99)": 250.88236499999996,
+            "max": 286.1327
+        },
+        "http_req_tls_handshaking": {
+            "avg": 0,
+            "med": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0,
+            "max": 0
+        },
+        "coupon_success_duration": {
+            "avg": 141.4700182618253,
+            "med": 141.6225,
+            "p(90)": 155.053,
+            "p(95)": 161.12346,
+            "p(99)": 180.6143120000001,
+            "max": 248.2898
+        },
+        "coupon_duplicate_request": {
+            "count": 0,
+            "rate": 0,
+            "thresholds": {
+                "count==0": false
+            }
+        },
+        "coupon_success": {
+            "rate": 106.65028616114878,
+            "count": 9999,
+            "thresholds": {
+                "count==10000": true
+            }
+        },
+        "coupon_unexpected_result": {
+            "count": 6,
+            "rate": 0.06399657135382465,
+            "thresholds": {
+                "count==0": true
+            }
+        },
+        "iterations": {
+            "count": 30000,
+            "rate": 319.98285676912326
+        },
+        "vus": {
+            "min": 50,
+            "max": 50,
+            "value": 50
+        },
+        "checks": {
+            "passes": 59707,
+            "fails": 293,
+            "thresholds": {
+                "rate==1": true
+            },
+            "value": 0.9951166666666666
+        },
+        "coupon_attempt": {
+            "count": 30000,
+            "rate": 319.98285676912326,
+            "thresholds": {
+                "count==30000": false
+            }
+        },
+        "http_req_failed": {
+            "passes": 287,
+            "fails": 29713,
+            "thresholds": {
+                "rate==0": true
+            },
+            "value": 0.009566666666666666
+        },
+        "http_req_receiving": {
+            "p(90)": 0.5322,
+            "p(95)": 0.5811099999999998,
+            "p(99)": 1.000201,
+            "max": 2.2497,
+            "avg": 0.1520722533333332,
+            "med": 0
+        },
+        "data_sent": {
+            "count": 7251360,
+            "rate": 77343.69627537833
+        },
+        "coupon_recognized_result": {
+            "passes": 29707,
+            "fails": 293,
+            "value": 0.9902333333333333
+        },
+        "coupon_duplicate_user": {
+            "count": 19708,
+            "rate": 210.20740470686272,
+            "thresholds": {
+                "count==20000": true
+            }
+        },
+        "http_req_connecting": {
+            "avg": 0.008718129999999998,
+            "med": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0.5220009999999998,
+            "max": 1.9998
+        },
+        "http_req_duration": {
+            "avg": 155.93369318999916,
+            "med": 149.07864999999998,
+            "p(90)": 189.99552,
+            "p(95)": 211.04957,
+            "p(99)": 250.820391,
+            "max": 286.1327
+        },
+        "http_req_blocked": {
+            "med": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0.5285,
+            "max": 12.2661,
+            "avg": 0.029861263333333356
+        },
+        "http_reqs": {
+            "count": 30000,
+            "rate": 319.98285676912326
+        }
+    }
+}

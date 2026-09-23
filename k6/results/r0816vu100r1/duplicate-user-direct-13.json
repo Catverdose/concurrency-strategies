@@ -1,0 +1,217 @@
+{
+    "metrics": {
+        "http_req_waiting": {
+            "p(95)": 269.11881500000004,
+            "p(99)": 303.957474,
+            "max": 355.6226,
+            "avg": 249.16404309999993,
+            "med": 246.5811,
+            "p(90)": 262.34255
+        },
+        "checks": {
+            "passes": 60000,
+            "fails": 0,
+            "thresholds": {
+                "rate==1": false
+            },
+            "value": 1
+        },
+        "http_req_receiving": {
+            "p(95)": 0.5338,
+            "p(99)": 0.9341009999999998,
+            "max": 1.9319,
+            "avg": 0.12487853333333256,
+            "med": 0,
+            "p(90)": 0.5278
+        },
+        "iterations": {
+            "count": 30000,
+            "rate": 400.17557997033293
+        },
+        "coupon_recognized_result": {
+            "passes": 30000,
+            "fails": 0,
+            "value": 1
+        },
+        "coupon_attempt": {
+            "count": 30000,
+            "rate": 400.17557997033293,
+            "thresholds": {
+                "count==30000": false
+            }
+        },
+        "coupon_duplicate_request": {
+            "count": 0,
+            "rate": 0,
+            "thresholds": {
+                "count==0": false
+            }
+        },
+        "coupon_unexpected_result": {
+            "count": 0,
+            "rate": 0,
+            "thresholds": {
+                "count==0": false
+            }
+        },
+        "http_req_connecting": {
+            "p(99)": 0,
+            "max": 3.4141,
+            "avg": 0.005582356666666662,
+            "med": 0,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "vus": {
+            "value": 100,
+            "min": 100,
+            "max": 100
+        },
+        "http_reqs": {
+            "count": 30000,
+            "rate": 400.17557997033293
+        },
+        "coupon_sold_out": {
+            "count": 0,
+            "rate": 0,
+            "thresholds": {
+                "count==0": false
+            }
+        },
+        "coupon_success_duration": {
+            "max": 355.1466,
+            "avg": 250.58331109999892,
+            "med": 248.0313,
+            "p(90)": 263.78363,
+            "p(95)": 270.965485,
+            "p(99)": 304.02308700000003
+        },
+        "vus_max": {
+            "value": 100,
+            "min": 100,
+            "max": 100
+        },
+        "coupon_duplicate_user": {
+            "count": 20000,
+            "rate": 266.783719980222,
+            "thresholds": {
+                "count==20000": false
+            }
+        },
+        "http_req_duration{expected_response:true}": {
+            "avg": 249.30243526666735,
+            "med": 246.7347,
+            "p(90)": 262.43203,
+            "p(95)": 269.238085,
+            "p(99)": 303.957474,
+            "max": 356.1414
+        },
+        "http_req_blocked": {
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0.5174,
+            "max": 15.1839,
+            "avg": 0.0472176733333334,
+            "med": 0
+        },
+        "http_req_tls_handshaking": {
+            "max": 0,
+            "avg": 0,
+            "med": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0
+        },
+        "data_received": {
+            "count": 6546851,
+            "rate": 87329.6631968118
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 30000,
+            "thresholds": {
+                "rate==0": false
+            },
+            "value": 0
+        },
+        "data_sent": {
+            "count": 6381360,
+            "rate": 85122.14796664946
+        },
+        "coupon_duplicate_user_duration": {
+            "p(90)": 261.6894,
+            "p(95)": 268.411915,
+            "p(99)": 303.41190699999913,
+            "max": 356.1414,
+            "avg": 248.6619973499996,
+            "med": 246.02285
+        },
+        "http_req_duration": {
+            "avg": 249.30243526666735,
+            "med": 246.7347,
+            "p(90)": 262.43203,
+            "p(95)": 269.238085,
+            "p(99)": 303.957474,
+            "max": 356.1414
+        },
+        "coupon_internal_error": {
+            "count": 0,
+            "rate": 0,
+            "thresholds": {
+                "count==0": false
+            }
+        },
+        "http_req_sending": {
+            "med": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0.5283,
+            "max": 1.8267,
+            "avg": 0.013513633333333323
+        },
+        "coupon_setup_error": {
+            "rate": 0,
+            "count": 0,
+            "thresholds": {
+                "count==0": false
+            }
+        },
+        "iteration_duration": {
+            "p(99)": 304.02308699999986,
+            "max": 356.1414,
+            "avg": 249.4789868866682,
+            "med": 246.88625000000002,
+            "p(90)": 262.55179,
+            "p(95)": 269.46545
+        },
+        "coupon_success": {
+            "count": 10000,
+            "rate": 133.391859990111,
+            "thresholds": {
+                "count==10000": false
+            }
+        }
+    },
+    "root_group": {
+        "checks": {
+            "result is recognized": {
+                "name": "result is recognized",
+                "path": "::result is recognized",
+                "id": "4e0943df8f0b3df8b8614fde34f6389e",
+                "passes": 30000,
+                "fails": 0
+            },
+            "status matches result": {
+                "path": "::status matches result",
+                "id": "9162adfc0298f93da2240d7713da7704",
+                "passes": 30000,
+                "fails": 0,
+                "name": "status matches result"
+            }
+        },
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {}
+    }
+}
